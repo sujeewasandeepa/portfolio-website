@@ -18,27 +18,3 @@ export default function Card({ title, description, imageSrc, myRole, myRoleDesc,
       </div>
     );
   }
-
-
-// export default function Card ({ title, description, imageSrc, myRole, myRoleDesc, workList,link }) {
-
-//     return(
-//         <div className="bg-white rounded-lg shadow-md mx-5 pb-10">
-//             <img className="w-1/2 h-1/2 object-cover m-auto" src={imageSrc} alt={title} />
-//             <div className="px-6">
-//                 <h2 className="text-2xl font-bold mb-2 hover:underline"><a href={link}>{title}</a></h2>
-//                 <p className="text-gray-700 text-base ">{description}</p>
-//                 <h3 className="text-1xl font-bold my-2">{myRole}</h3>
-//                 <p className="text-gray-700 text-base">{myRoleDesc}</p>
-//                 <ul className="text-gray-700 text-base my-2 italic">
-//                     {
-//                         workList.map((item) => (
-//                         <li className="">{item}</li>
-//                         ))                
-//                     }
-//                 </ul>
-//             </div>
-//       </div>
-
-//     )
-// }
