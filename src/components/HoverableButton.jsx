@@ -27,7 +27,7 @@ export default function HoverableButton (props) {
         className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-slate-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
       > */}
         <FontAwesomeIcon icon={props.icon} onClick={navigateTo} onMouseEnter={openDropDown} onMouseLeave={closeDropDown}
-            className="text-zinc-500 hover:text-zinc-800 p-2 dark:text-slate-300 dark:bg-slate-500 dark:hover:text-200"
+            className="text-zinc-50 hover:text-green-300 p-2"
         />
 
       {isOpen && (

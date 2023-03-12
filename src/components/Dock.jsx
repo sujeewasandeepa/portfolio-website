@@ -6,7 +6,7 @@ import HoverableButton from './HoverableButton'
 export default function Dock () {
     return (
         <>
-            <div className="shadow-lg ml-2 w-15 left-0 top-1/2 transform -translate-y-1/2 fixed px-2 py-5 bg-zinc-50 rounded-2xl dark:bg-zinc-400">
+            <div className="shadow-lg ml-2 w-15 left-0 top-1/2 transform -translate-y-1/2 fixed px-2 py-5 bg-zinc-500 rounded-2xl dark:bg-zinc-400">
                 <ul className="text-center px-3 text-xl">
                     <li className='pb-4'><HoverableButton icon={faHome} label={"Home"} link="/"/></li>
                     <li className='pb-4'><HoverableButton icon={faLaptop} label={"Projects"} link="/projects"/></li>
