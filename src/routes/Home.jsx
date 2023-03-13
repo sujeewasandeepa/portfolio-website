@@ -17,7 +17,7 @@ export default function Home () {
                         title="Attendy"
                         description="A web application that will manage attendance for a school."
                         imageSrc={pic1}
-                        myRole={["Project Manager and Developer"]}
+                        myRole={"Project Manager and Developer"}
                         myRoleDesc="I was the project manager and a developer for this project. I was in charge of managing the project and developing some parts of it."
                         workList={["Implement authentication", "Implement a dashboard", "Manage the code base", "Assign group members to tasks"]}
                         link="https://github.com/Team-4X"
