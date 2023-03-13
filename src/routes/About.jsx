@@ -8,9 +8,9 @@ export default function About () {
     return (
         <>
             <div className="bg-gradient-to-t from-slate-300 via-slate-100 to-white mb-0 pb-20 h-100">
-                <h2 className="text-4xl text-center text-slate-800 mt-5 font-bold">About Me</h2>
-                <h1 className="text-8xl my-5 text-center text-slate-400 font-bold">Hello, I'm Sujeewa</h1>
-                <div className="w-1/2 m-auto">
+                <h2 className="text-4xl lg:text-6xl text-center text-slate-800 mt-5 font-bold">About Me</h2>
+                <h1 className="text-6xl lg:text-8xl my-5 text-center text-slate-400 font-bold">Hello, I'm Sujeewa</h1>
+                <div className="md:w-1/2 md:m-auto mx-10">
                     <p className="mt-5 mb-3 text-slate-600">
                         I'm Sujeewa, a software engineering undergraduate
                         from Sri Lanka.
