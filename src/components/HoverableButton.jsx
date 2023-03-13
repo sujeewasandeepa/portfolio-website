@@ -21,7 +21,7 @@ export default function HoverableButton (props) {
     }
     
     return (
-    <div className="relative inline-block bg-transparent backdrop-blur-sm">
+    <div className="relative inline-block bg-transparent">
       {/* <button
         onClick={toggleDropdown}
         className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-slate-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
@@ -32,7 +32,7 @@ export default function HoverableButton (props) {
 
       {isOpen && (
         <div className="absolute left-20 z-0 top-0 mt-0">
-            <div className="rounded-xl shadow-lg bg-gradient-to-r from-slate-300 via-slate-200 to-slate-300 ring-1 ring-black ring-opacity-5 text-slate-600 dark:bg-slate-500 dark:text-slate-300">
+            <div className="rounded-xl shadow-lg bg-zinc-700/[0.9] ring-1 ring-black ring-opacity-5 text-slate-50 font-bold dark:bg-slate-500 dark:text-slate-300">
                 <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
                     <a href="#" className="block w-40 px-4 py-2 text-sm">{props.label}</a>
                 </div>
