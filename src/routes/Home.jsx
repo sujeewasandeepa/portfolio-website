@@ -15,7 +15,7 @@ export default function Home () {
                 <div className=''>
                     <Card 
                         title="Attendy"
-                        description="A web application that will manage attendance for a school."
+                        description="Attendy is a web application that will manage attendance for a school."
                         imageSrc={pic1}
                         myRole={"Project Manager and Developer"}
                         myRoleDesc="I was the project manager and a developer for this project. I was in charge of managing the project and developing some parts of it."
@@ -23,14 +23,7 @@ export default function Home () {
                         link="https://github.com/Team-4X"
                     ></Card>
                 </div>
-                
-                <div className=''>
-                    <Card></Card>
-                </div>
 
-                <div className=''>
-                    <Card></Card>
-                </div>
 
             </div>
         </>
