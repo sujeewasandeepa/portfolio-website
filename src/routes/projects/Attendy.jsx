@@ -24,6 +24,7 @@ export default function Attendy () {
                         <li type="disc">Express JS</li>
                         <li type="disc">MongoDB</li>
                         <li type="disc">Mongoose</li>
+                        <li type="disc">Bulma CSS</li>
                     </ul>
 
                     <span className="text-slate-600 font-bold">Features:</span>
