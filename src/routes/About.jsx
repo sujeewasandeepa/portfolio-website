@@ -12,30 +12,37 @@ export default function About () {
                 <h1 className="text-6xl lg:text-8xl my-5 text-center text-slate-400 font-bold">Hello, I'm Sujeewa</h1>
                 <div className="md:w-1/2 md:m-auto mx-10">
                     <p className="mt-5 mb-3 text-slate-600">
-                        I'm Sujeewa, a software engineering undergraduate
-                        from Sri Lanka.
+                        Hi there, I'm Sujeewa - a software engineering undergraduate from Sri Lanka 
+                        with a passion for all things tech and beyond.
                     </p>
                     <p className="mb-3 text-slate-600">
-                        I enjoy being with the nature, poetry, hiking, philosophy, anime and programming.
+                        I'm an avid nature enthusiast and enjoy exploring the great outdoors. 
+                        When I'm not out in the wilderness, you can find me curled up with a book of poetry or 
+                        catching up on my favorite anime series.
                     </p>
                     <p className="mb-3 text-slate-600">
-                        These days I learn software engineering in the Open University of Sri Lanka.
-                        I mainly focus on full stack development for now. Later in life I hope to explore fields
-                        like artificial intelligence and the decentralized web.
+                        Currently, I'm pursuing my studies in software engineering 
+                        at the Open University of Sri Lanka. 
+                        My main focus at the moment is full stack development, 
+                        but I'm always looking to expand my horizons and explore 
+                        new fields - like artificial intelligence and the decentralized web - in the future.
                     </p>
                     <p className="mb-3 text-slate-600">
-                        When it comes to the world of software, I have a special place for open source
-                        software in my heart, it fascinates me to see, how many people there are that
-                        are willing to contribute their valuable time for the benefit of strangers that
-                        they will probably never even see.
+                        As a software developer, open source software holds a special place in my heart. 
+                        I'm fascinated by the idea of people from all walks of life coming together 
+                        to contribute their time and effort for the benefit of strangers - a 
+                        true testament to the power of community.
                     </p>
                     <p className="mb-3 text-slate-600">
-                        Speaking of open source software, I should talk about linux, I love linux.
-                        I have been daily driving a linux computer since 2019, and I have zero regrets.
-                        I have tried a lot of different linux distributions including Debian, Ubuntu,
-                        Manjaro, Fedora, Nitrux OS, Hanthana Linux, Kali Linux, Linux mint and many more.
+                        And I love Linux! Since 2019,
+                        I've been using Linux as my daily driver and have experimented 
+                        with various distributions, including Debian, Ubuntu, Manjaro, Fedora, 
+                        Nitrux OS, Hanthana Linux, Kali Linux, Linux Mint, and many more.
                     </p>
-
+                    <p className="mb-3 text-slate-600">
+                        Join me on my journey of discovery as I navigate the ever-changing world 
+                        of software engineering and beyond.
+                    </p>
                     <p className="mb-3 text-slate-600 italic">
                         You can find me on,
                     </p>
