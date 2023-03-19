@@ -6,6 +6,7 @@ import Home from './routes/Home'
 import Welcome from "./routes/Welcome";
 
 import Attendy from "./routes/projects/Attendy";
+import MySite from "./routes/projects/MySite";
 
 import ErrorPage from "./error-page"
 
@@ -28,6 +29,10 @@ export default createBrowserRouter([
                     {
                         path: "/projects/attendy",
                         element: <Attendy/>,
+                    },
+                    {
+                        path: "/projects/portfolio-site",
+                        element: <MySite/>,
                     }
 
                 ]
