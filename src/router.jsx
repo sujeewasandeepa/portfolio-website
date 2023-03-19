@@ -5,6 +5,8 @@ import About from './routes/About'
 import Home from './routes/Home'
 import Welcome from "./routes/Welcome";
 
+import Attendy from "./routes/projects/Attendy";
+
 import ErrorPage from "./error-page"
 
 export default createBrowserRouter([
@@ -18,7 +20,17 @@ export default createBrowserRouter([
             },
             {
                 path: "/projects",
-                element: <Home/>
+                children: [
+                    {
+                        path: "/projects",
+                        element: <Home/>,
+                    },
+                    {
+                        path: "/projects/attendy",
+                        element: <Attendy/>,
+                    }
+
+                ]
             },
             {
                 path: "/about",

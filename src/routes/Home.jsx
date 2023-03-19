@@ -1,7 +1,8 @@
 import 'tailwindcss/tailwind.css';
-import Card from '../components/Card';
-import pic1 from "../assets/dashboard-not-logged-in.png";
+import { Link } from 'react-router-dom';
+
 export default function Home () {
+
     return (
         <>
 
@@ -9,20 +10,11 @@ export default function Home () {
 
             
             <div className='mx-10 grid lg:grid-cols-2 gap-10 md:grid-cols-2 sm-grid-cols-1'>
-
-                <div className=''>
-                    <Card 
-                        title="Attendy"
-                        description="Attendy is a web application that will manage attendance for a school."
-                        imageSrc={pic1}
-                        myRole={"Project Manager and Developer"}
-                        myRoleDesc="I was the project manager and a developer for this project. I was in charge of managing the project and developing some parts of it."
-                        workList={["Implement authentication", "Implement a dashboard", "Manage the code base", "Assign group members to tasks"]}
-                        link="https://github.com/Team-4X"
-                    ></Card>
-                </div>
-
-
+                <ul className='m-auto'>
+                    <Link to="/projects/attendy"><li type="disc" className='text-3xl text-slate-500'>Attendy</li></Link>
+                    <Link to="/projects/attendy"><li type="disc" className='text-3xl text-slate-500'>Portfolio Website</li></Link>
+                    <Link to="/projects/attendy"><li type="disc" className='text-3xl text-slate-500'>Rust Webserver</li></Link>
+                </ul>
             </div>
         </>
     )
