@@ -5,8 +5,6 @@ export default function Home () {
     return (
         <>
 
-            {/* <h1 className='sm:text-5xl md:text-8xl lg:text-9xl text-center font-bold text-slate-500 m-10'>My Projects</h1>
-             */}
             <h1 className='text-6xl md:text-8xl lg:text-9xl text-center font-bold text-slate-500 m-10'>My Projects</h1>
 
             
