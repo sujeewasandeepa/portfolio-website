@@ -7,6 +7,7 @@ import Welcome from "./routes/Welcome";
 
 import Attendy from "./routes/projects/Attendy";
 import MySite from "./routes/projects/MySite";
+import RustWeb from "./routes/projects/RustWeb";
 
 import ErrorPage from "./error-page"
 
@@ -33,6 +34,10 @@ export default createBrowserRouter([
                     {
                         path: "/projects/portfolio-site",
                         element: <MySite/>,
+                    },
+                    {
+                        path: "/projects/rust-web",
+                        element: <RustWeb/>,
                     }
 
                 ]
