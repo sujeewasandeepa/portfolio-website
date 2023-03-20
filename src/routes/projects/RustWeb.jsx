@@ -8,7 +8,7 @@ export default function MySite () {
 
                     <span className="text-slate-600 font-bold">Description: </span>
                     <p className="text-slate-600 mb-2">
-                         
+                         Description goes here
                     </p>
 
                     <span className="text-slate-600 font-bold">Github:</span>
