@@ -2,13 +2,15 @@ export default function MySite () {
     return (
         <>
             <div className="flex flex-col my-10 items-center">
-                <h1 className="ml-10 text-5xl text-slate-600">Rust Webserver</h1>
+                <h1 className="mx-5 text-5xl text-slate-600">Rusty VPN</h1>
 
-                <div className="m-10 items-center">
+                <div className="m-10 items-center lg:mx-auto lg:w-1/2">
 
                     <span className="text-slate-600 font-bold">Description: </span>
-                    <p className="text-slate-600 mb-2">
-                         Description goes here
+                    <p className="text-slate-600 mb-2 w-100">
+                        I am trying to make a VPN with Rust programming language. My goal is to get 
+                        familiar with Rust and also to learn how VPNs work. I am planning to use the
+                        OpenVPN protocol for this project. But let's see. This is subjected to change. 
                     </p>
 
                     <span className="text-slate-600 font-bold">Github:</span>

@@ -4,7 +4,7 @@ export default function Attendy () {
         <>
             <div className="flex flex-col my-10 items-center">
                 <h1 className="text-5xl text-slate-600">Attendy</h1>
-                <div className="m-10 items-center">
+                <div className="m-10 items-center lg:mx-auto lg:w-1/2">
 
                     <span className="text-slate-600 font-bold">Description: </span>
                     <p className="text-slate-600 mb-2">

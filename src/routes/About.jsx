@@ -73,7 +73,17 @@ export default function About () {
                                 MyHubLK
                             </a>
                         </li>
-
+                        <li>
+                            <a className="text-slate-600 hover:text-slate-800" href="https://np.ironhelmet.com">
+                                Neptune's Pride (One of the best games ever)
+                            </a>
+                        </li>
+                        <li>
+                            <a className="text-slate-600 hover:text-slate-800" href="https://politicsandwar.com/nation/id=528124">
+                                Politics and War
+                            </a>
+                        </li>
+                        
                     </ul>
                 </div>
             </div>
