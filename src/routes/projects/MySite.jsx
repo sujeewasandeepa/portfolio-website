@@ -4,7 +4,7 @@ export default function MySite () {
             <div className="flex flex-col my-10 items-center">
                 <h1 className="ml-10 text-5xl text-slate-600">Portfolio Website</h1>
 
-                <div className="m-10 items-center lg:mx-auto lg:w-1/2">
+                <div className="m-10 items-center md:mx-auto md:w-2/3">
 
                     <span className="text-slate-600 font-bold">Description: </span>
                     <p className="text-slate-600 mb-2">
