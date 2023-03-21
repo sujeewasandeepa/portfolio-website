@@ -11,9 +11,9 @@ export default function Home () {
             
             <div className='mx-10 grid lg:grid-cols-2 gap-10 md:grid-cols-2 sm-grid-cols-1'>
                 <ul className='m-auto'>
-                    <Link to="/projects/attendy"><li type="disc" className='text-3xl text-slate-500 hover:text-slate-600 hover:underline'>Attendy</li></Link>
-                    <Link to="/projects/portfolio-site"><li type="disc" className='text-3xl text-slate-500 hover:text-slate-600 hover:underline'>Portfolio Website</li></Link>
-                    <Link to="/projects/rust-web"><li type="disc" className='text-3xl text-slate-500 hover:text-slate-600 hover:underline'>Rusty VPN</li></Link>
+                    <Link to="/projects/attendy"><li type="disc" className='text-2xl text-slate-500 hover:text-slate-600 hover:underline'>Attendy</li></Link>
+                    <Link to="/projects/portfolio-site"><li type="disc" className='text-2xl text-slate-500 hover:text-slate-600 hover:underline'>Portfolio Website</li></Link>
+                    <Link to="/projects/rust-web"><li type="disc" className='text-2xl text-slate-500 hover:text-slate-600 hover:underline'>Rusty VPN</li></Link>
                 </ul>
             </div>
         </>

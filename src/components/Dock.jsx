@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome, faLaptop, faUserAstronaut } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faLaptop, faUserAstronaut, faPen } from '@fortawesome/free-solid-svg-icons'
 import HoverableButton from './HoverableButton'
 
 export default function Dock () {
@@ -10,6 +10,7 @@ export default function Dock () {
                 <ul className="text-center px-3 text-xl">
                     <li className='pb-4'><HoverableButton icon={faHome} label={"Home"} link="/"/></li>
                     <li className='pb-4'><HoverableButton icon={faLaptop} label={"Projects"} link="/projects"/></li>
+                    <li className='pb-4'><HoverableButton icon={faPen} label={"Blog"} link="/blog"/></li>
                     <li><HoverableButton icon={faUserAstronaut} label={"About Me"} link="/about"/></li>
                 </ul>
             </div>
