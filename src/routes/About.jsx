@@ -55,10 +55,18 @@ export default function About () {
                         <li><a href="#"><FontAwesomeIcon icon={faMastodon} className="mr-5 text-slate-500 hover:text-slate-800"/></a></li>
                         <li><a href="mailto://sandeepasujeewa@gmail.com"><FontAwesomeIcon icon={faGoogle} className="mr-5 text-slate-500 hover:text-slate-800"/></a></li>
                     </ul>
+                    
+                    <p className='my-3 text-slate-600'>
+                        <a href="https://drive.google.com/file/d/1BmCT0UWX-ZftVVNpjzLquxNGMXy9JgW-/view?usp=share_link"
+                        className='italic hover:underline hover:text-slate-800'
+                        >
+                            Download my CV
+                        </a>
+                    </p>
 
                     <hr />
 
-                    <p className="m-3 text-slate-600">
+                    <p className="my-3 text-slate-600">
                         I will leave links to different things I really enjoy. Have a greay day! 🤍
                     </p>
                     <hr/>
